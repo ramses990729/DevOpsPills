@@ -1,0 +1,143 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  
+.navbar{
+    background-color: rgb(34, 4, 4);
+}
+a{
+    color: white !important;
+}
+
+a:hover{
+color: rgb(82, 0, 0);
+text-decoration: underline;
+}
+.page-link{
+    background-color: rgb(82, 0, 0);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+}
+footer {
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+  h1, h2, h3, h4 {
+      color: white !important;
+  }
+.team, .work, .contact{
+    height: unset;
+}
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.836);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    height: 600px;
+}
+.jumbotron h1 {
+ margin: 1em;
+}
+.sec{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+.team-card{
+    background-image: linear-gradient(to top left, rgb(20, 19, 19), rgb(82, 0, 0));
+    box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.4);
+    transition: all 0.4s;
+}
+.work .team-card{
+    background-image: linear-gradient(to top, rgb(56, 1, 1) 50%, rgb(0, 0, 0) 50%);
+}
+.work-card{
+    transition: all 0.4s;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+    box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.4);
+}
+.team-card:hover, .work-card:hover{
+    transform: scale(1.02) !important;
+    box-shadow: 0 4rem 5rem rgba(252, 251, 251, 0.4);
+}
+.area:hover{
+    transition: all 0.4s;
+    transform: scale(1.05) !important;
+    box-shadow: 0 4rem 5rem rgba(252, 251, 251, 0.4);
+}
+.posts-card{
+    border-top-left-radius: 50%;
+}
+.center{
+    border-radius: 20%;
+}
+.cat-item, .categories{
+    display: none;
+}
+#team1{
+    border-bottom-left-radius: 20%;
+}
+#team3{
+    border-top-right-radius: 20%;
+}
+.break-word {
+    -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+   
+   -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+       -ms-hyphens: auto;
+           hyphens: auto;
+   }
+
+
+.contact{
+    background: transparent;
+}
+
+.categ-img{
+    border: 1px, solid #ccc;
+
+}
+
+
+@media (min-width: 800px){
+    .jumbotron{
+        height: 900px;
+    }
+    .contact{
+        background-image: linear-gradient(to right top,rgba(39, 0, 0, 0.918), #530606ee);
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+    }
+    .navbar {
+        z-index: 9999;
+    }
+    .work{
+        background-image: linear-gradient(to right top,rgba(39, 0, 0, 0.918), #530606ee);
+    }
+    .team, .work, .contact{
+        height: 800px;
+    }
+}
+
+
+
+
