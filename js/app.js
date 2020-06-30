@@ -25,7 +25,6 @@ $(document).ready(function(){
      liArr[i].className += ` ${newClass}`;
     }  
    }
-    console.log(liArr);
   return liArr;
   }
   
@@ -107,6 +106,35 @@ const catHref = catFiltered.map(item => {
 const asignHref = itemCat.forEach((item, index) =>{
  item.setAttribute('href', catHref[index])
 });
+
+
+//Deleting Useless NavLinks
+
+
+const nav = document.querySelectorAll('.nav-link');
+
+const navItems = Array.from(nav);
+
+const navHref = navItems.filter(item => {
+  return item.getAttribute('href').includes('#');
+});
+
+const ids = [document.getElementById('ourWork'), document.getElementById('ourTeam'), document.getElementById('contact')];
+
+const removeItems = (items) => {
+ const hideLinks = items.forEach(item => {
+    if(item === null) {
+      navHref.forEach(link => {
+        link.style.display = 'none';
+      })
+    }
+    
+  })
+  return hideLinks;
+};
+
+removeItems(ids);
+
 
 
 

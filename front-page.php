@@ -87,7 +87,6 @@
             <h2 class="col-12 text-white my-5 offset-1">Last Post</h2>
             <div class="card team-card rounded-pill offset-md-3 pt-4">
               <div class="card-body offset-sm-2 text-white">
-              <?php if ( function_exists( 'wpsp_display' ) ) wpsp_display( 61 ); ?>
               </div>
           </div>
             </div>  
