@@ -1,13 +1,15 @@
 # DevOps-Pills Blog Site
-
+*
+*
+*
 
 # Description
 
 this is a wordpress theme divided in php files based on the wordpress template hierarchy. Using Php as the main programming language, bootstrap as a css framework and Jqwery for the page interactivity.
 
-# Files used in this project:
+# Files used in this project
 
-# Main:
+# Main
 1.index.php
 2.front-Page.php
 3.home.php
@@ -16,7 +18,7 @@ this is a wordpress theme divided in php files based on the wordpress template h
 6.functions.php
 7.single.php
 
-# Styles:
+# Styles
 onSourceFolder/
 styles.css (default).
 
@@ -24,7 +26,7 @@ assets/
  styles.css
  blog.css
  
- # Javascript:
+ # Javascript
    app.js  
  
  
@@ -59,13 +61,13 @@ Here is where all the entries of the blog are displayed in order of creation, on
   
   This is the page that defines the look of all of the post that are published on our blog.
   
- # Styles:
+ # Styles
 
  styles.css: Here are the global styles that are applied to the blog and its pages in general.
  
  blog.css: This file contains the specific styles that are applied to the blog/home page of the project.
  
- # Javascript:
+ # Javascript
  
  app.js: Here is defined the smooth scrolling function. Also here are functions that are taking care of the categories links and the correct displaying of the navigation menu items, throught the website.    
   
