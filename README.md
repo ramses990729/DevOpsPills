@@ -32,7 +32,7 @@ assets/
 
 # 1. index.php
 
-This is the main file and it's mandatory for wordpress themes, in here we have the main wordpress loop to display the entries correctly, .
+This is the main file and it is mandatory for wordpress themes, in here we have the main wordpress loop to display the entries correctly.
 
 
 # 2. front-page.php
@@ -45,7 +45,7 @@ It is as Its name says, the front, static and presentational page of Dev-Ops-Pil
 Here is where all the entries of the blog are displayed in order of creation, on the side is the advertisement sidebar and It gives us the access to the single page of each post that is published on the blog
 
 
-# 4, 5 header.php and footer.php 
+# 4. header.php, 5. footer.php 
 
  In this files are displayed dinamically the header and the footer of the page, also we have introduced there the main links to connect our php code with the styles and the   javascript files.
  
@@ -59,19 +59,15 @@ Here is where all the entries of the blog are displayed in order of creation, on
   
   This is the page that defines the look of all of the post that are published on our blog.
   
-  
  # Styles:
- # styles.css
+
+ styles.css: Here are the global styles that are applied to the blog and its pages in general.
  
- here are the global styles that are applied to the blog and its pages in general.
- 
- # blog.css
- this file contains the specific styles that are applied to the blog/home page of the project.
+ blog.css: This file contains the specific styles that are applied to the blog/home page of the project.
  
  # Javascript:
  
-  # app:
-  Here is defined the smooth scrolling function. Also here are functions that are taking care of the categories links and the correct displaying of the navigation menu items, throught the website.    
+ app.js: Here is defined the smooth scrolling function. Also here are functions that are taking care of the categories links and the correct displaying of the navigation menu items, throught the website.    
   
 
 
