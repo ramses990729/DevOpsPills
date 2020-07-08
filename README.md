@@ -1,7 +1,5 @@
 # DevOps-Pills Blog Site
-*
-*
-*
+
 
 # Description
 
@@ -63,13 +61,13 @@ Here is where all the entries of the blog are displayed in order of creation, on
   
  # Styles
 
- styles.css: Here are the global styles that are applied to the blog and its pages in general.
+ * styles.css: Here are the global styles that are applied to the blog and its pages in general.
  
- blog.css: This file contains the specific styles that are applied to the blog/home page of the project.
+ * blog.css: This file contains the specific styles that are applied to the blog/home page of the project.
  
  # Javascript
  
- app.js: Here is defined the smooth scrolling function. Also here are functions that are taking care of the categories links and the correct displaying of the navigation menu items, throught the website.    
+ * app.js: Here is defined the smooth scrolling function. Also here are functions that are taking care of the categories links and the correct displaying of the navigation menu items, throught the website.    
   
 
 
