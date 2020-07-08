@@ -3,7 +3,7 @@
 
 # Description
 
-this is a wordpress theme divided in php files based on the wordpress template hierarchy. Using Php as the main programming language, bootstrap as a css framework and Jqwery for the page interactivity.
+this is a wordpress theme divided in php files based on the wordpress template hierarchy. Using Php as the main programming language, bootstrap as a css framework and Jquery for the page interactivity.
 
 # Files used in this project
 
