@@ -30,7 +30,7 @@ $(document).ready(function(){
   
   subItemClassAdder(liItems, 'scroll');
 
-  // Comments Styles
+  //Comments Styles
 const commentsButton = document.querySelector('.form-submit #submit');
 if(commentsButton){
   commentsButton.className = 'btn btn-danger';

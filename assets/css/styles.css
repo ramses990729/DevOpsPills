@@ -132,8 +132,9 @@ footer {
     }
     .work{
         background-image: linear-gradient(to right top,rgba(39, 0, 0, 0.918), #530606ee);
+        height: 950px;
     }
-    .team, .work, .contact{
+    .team, .contact{
         height: 800px;
     }
 }

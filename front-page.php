@@ -53,7 +53,6 @@
             <h1 class="display-4 text-center font-weight-bold font-italic text-white">DevOps-Pills</h1>
             <p class="lead font-weight-bolder text-center text-white m-5">A computer science blog created especially to help you solve problems and clarify issues using small "pills" to make your work easier.</p>
             <div class="button-group text-center">
-              <!-- <a class="btn btn-outline-danger position-relative m-3 d-inline-block rounded-pill w-25" href="/?page_id=47&"><strong>Blog</strong></a> -->
               <a class="btn btn-outline-danger d-inline-block scroll rounded-pill w-50" href="#ourWork">Keep Exploring ↓</a></div>
           </div>
         </div>
@@ -83,10 +82,20 @@
               <a class="cat-link" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/azure.png" alt="Work img" class="img-fluid area rounded-pill" style="height: 200px; object-fit: cover;"></a>
             </div>
             </div>
-          <div class="row col-12 col-sm-6 text-white">
-            <h2 class="col-12 text-white my-5 offset-1">Last Post</h2>
-            <div class="card team-card rounded-pill offset-md-3 pt-4">
-              <div class="card-body offset-sm-2 text-white">
+          <div class="row col-12 col-sm-6 text-white p-1">
+            <h2 class="col-12 text-white my-5 offset-1">About Us</h2>
+            <div class="card team-card rounded-pill offset-1 offset-md-3 pt-4">
+              <div class="card-header m-4"><h2>DevOps-Pills is...</h2></div>
+              <div>
+                
+                  <img class="card-img-top img-thumbnail rounded" alt="About us Image" src="<?php echo get_template_directory_uri(); ?>/assets/img/about.jpg"style="height: 200px; max-width: 70%;">
+        
+              </div>
+              <div class="card-body text-white m-4">
+              <p class="font-weight-bold">
+              DevOps-Pills is a blog aimed at all those computer science workers who are interested in either learning something new, reinforcing an area of knowledge, or simply solving a problem. We are a team of trained professionals and we seek to achieve our mission with each entry that is published and that may be useful to you in the future. We hope this project will help you. Let's keep coding!
+              </p>
+              <a class="btn btn-outline-danger d-inline-block scroll rounded-pill w-50 mt-3" href="#ourTeam">See Our Team!</a>
               </div>
           </div>
             </div>  
@@ -107,7 +116,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/alex.jpg" alt="Team Member Photo" style="max-height: 300px; min-height: 300px; object-fit: cover;" class="card-img-top img-fluid rounded-pill mt-2">
               <div class="card-body">
                 <p class="mt-2 mb-5">Systems administrator certified as a Microsoft Azure Associate Administrator with 10 years of experience in infrastructure and storage/backup systems.</p>
-                <a href="#" class="btn btn-outline-danger shadow stretched-link rounded-pill">See Profile</a>
+                <a href="#" class="btn btn-outline-danger shadow stretched-link rounded-pill d-none">See Profile</a>
               </div>
             </div>
             <div class="card col-12 col-sm-4 text-center my-5 text-white team-card" id="team2">
@@ -117,7 +126,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/alvaro.png" alt="Team Member Photo" style="max-height: 300px; min-height: 300px; object-fit: fill;" class="card-img-top img-fluid rounded-pill mt-2">
               <div class="card-body">
                 <p class="mt-2 mb-5">Cloud systems engineer working under devops culture around 5 years  ago and 10 years of experience working as a linux administrator. Using mostly aws as cloud provider.</p>
-                <a href="#" class="btn btn-outline-danger shadow stretched-link rounded-pill">See Profile</a>
+                <a href="#" class="btn btn-outline-danger shadow stretched-link rounded-pill d-none">See Profile</a>
               </div>
             </div>
             <div class="card col-12 col-sm-4 text-center my-5 text-white team-card" id="team3">
@@ -127,7 +136,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ramses.jpg" alt="Team Member Photo" style="max-height: 300px; min-height: 300px; object-fit: cover; object-position: center;" class="card-img-top img-fluid rounded-pill mt-2">
               <div class="card-body">
                 <p class="mt-2 mb-5">Front-end web developer with 1 year of experience using Javascript as the main language with the React library  to create dynamic web applications.</p>
-                <a href="#" class="btn btn-outline-danger shadow rounded-pill stretched-link">See Profile</a>
+                <a href="#" class="btn btn-outline-danger shadow rounded-pill stretched-link d-none">See Profile</a>
               </div>
             </div>
           </div> 
