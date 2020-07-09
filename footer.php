@@ -5,7 +5,7 @@
             <p class="mt-3">Madrid, Spain</p>
           </div>
           <div class="col-6">
-            <h4 class="text-white mb-5">See our youtube channel!</h4>
+            <h4 class="text-white mb-5">Social Media</h4>
             <div class="icons row mb-5">
               <!-- <span class="col-sm-3">
                 <a href="#">
@@ -22,9 +22,14 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/flat-social-media-icons/linkedin.png" alt="social-icon" class="img-fluid" style="max-height: 50px; max-width: 50px;">
                 </a>
               </span> -->
-              <span class="col-sm-3">
+              <span class="col-sm-6">
                 <a href="https://www.youtube.com/channel/UC4RCREZjIkmknDiywGwreQA">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/flat-social-media-icons/youtube.png" alt="social-icon" class="img-fluid" style="max-height: 150px; max-width: 150px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/flat-social-media-icons/youtube.png" alt="social-icon" class="img-fluid" style="max-height: 100px; max-width: 100px;">
+                </a>
+              </span>
+              <span class="col-sm-6">
+                <a href="mailto:devopspills.blog@gmail.com">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/flat-social-media-icons/email.png" alt="social-icon" class="img-fluid" style="max-height: 100px; max-width: 100px;">
                 </a>
               </span>
             </div>
